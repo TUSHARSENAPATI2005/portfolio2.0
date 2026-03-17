@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar Senapati | Data Science & AI</title>
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Background Particles Canvas -->
+    <canvas id="particles"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#home"><img src="logo.png" alt="Data Science Logo" class="nav-logo-img"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-padding">
+        <div class="hero-content scroll-reveal left glass-card">
+            <h1 class="name glow-text"><span
+                    style="font-family: 'Outfit', sans-serif; font-size: 1.8rem; color: var(--neon-blue); font-weight: normal; text-shadow: 0 0 10px rgba(0, 240, 255, 0.4); letter-spacing: 1px;">Hi,
+                    I'm</span><br>Tushar Senapati</h1>
+            <h2 class="tagline">Data Science Student | Machine Learning Enthusiast | AI Solution Builder</h2>
+            <p class="intro">
+                Passionate about data science, machine learning, and artificial intelligence, with a strong interest in
+                building intelligent systems that transform data into meaningful insights and practical solutions.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                <a href="#contact" class="btn btn-secondary">Let's connect</a>
+            </div>
+        </div>
+
+        <div class="hero-image scroll-reveal right">
+            <div class="profile-frame">
+                <!-- Floating Labels -->
+                <div class="holo-label label-ai">
+                    <span class="dot dot-purple"></span> AI
+                </div>
+                <div class="holo-label label-ml">
+                    <span class="dot dot-cyan"></span> ML
+                </div>
+                <div class="holo-label label-ds">
+                    <span class="dot dot-blue"></span> DS
+                </div>
+                <!-- New Floating Labels -->
+                <div class="holo-label label-dl">
+                    <span class="dot dot-magenta"></span> DL
+                </div>
+                <div class="holo-label label-nlp">
+                    <span class="dot dot-yellow"></span> NLP
+                </div>
+                <div class="holo-label label-cv">
+                    <span class="dot dot-green"></span> CV
+                </div>
+
+                <!-- Glowing Rings -->
+                <div class="ring ring-outer"></div>
+                <div class="ring ring-inner-1"></div>
+                <div class="ring ring-inner-2"></div>
+                <div class="ring ring-inner-3"></div>
+
+                <div class="profile-container">
+                    <img src="avatar2.png" alt="Tushar Senapati" class="profile-pic">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <h2 class="section-title scroll-reveal">About Me <span class="highlight">.</span></h2>
+        <div class="about-container">
+            <div class="about-text scroll-reveal glass-card floating-element">
+                <p>
+                    Hey 👋 I’m <strong>Tushar Senapati</strong>, a Computer Science Engineering student at NIST
+                    University with a strong interest in artificial intelligence and data science.
+                </p>
+                <p>
+                    I enjoy building intelligent and practical software using machine learning, deep learning, and
+                    scalable web technologies. My work focuses on turning ideas and data into real applications that
+                    solve meaningful problems.
+                </p>
+                <p>
+                    My main stack includes Python, Rust, and modern tools like TensorFlow along with cloud platforms. I
+                    focus on designing systems that are efficient, reliable, and simple for users.
+                </p>
+                <p>
+                    With a solid base in computer science and hands-on development experience, I like creating
+                    end-to-end solutions from data processing and model training to backend systems and user interfaces.
+                    I’m especially interested in building smart applications that combine AI with clean, well-structured
+                    software.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section-padding">
+        <h2 class="section-title scroll-reveal">Academic Journey <span class="highlight">.</span></h2>
+        <div class="timeline scroll-reveal">
+            <div class="timeline-item glass-card">
+                <h3 class="degree">Bachelor of Technology (B.Tech) in Computer Science Engineering</h3>
+                <h4 class="university">NIST University</h4>
+                <p class="grad-year">Expected Graduation: <strong>2028</strong></p>
+                <div class="coursework">
+                    <p class="coursework-title">Academic Focus:</p>
+                    <ul class="tags">
+                        <li>Data Structures and Algorithms</li>
+                        <li>Data Science Fundamentals</li>
+                        <li>Machine Learning Concepts</li>
+                        <li>Artificial Intelligence Systems</li>
+                        <li>Database Management and SQL</li>
+                        <li>Data Analysis and Visualization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <h2 class="section-title scroll-reveal">Core Skills <span class="highlight">.</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card glass-card tilt-card scroll-reveal">
+                <i class="fab fa-python skill-icon"></i>
+                <h3>Python</h3>
+                <p>Used for data analysis, machine learning models, and automation.</p>
+            </div>
+            <div class="skill-card glass-card tilt-card scroll-reveal" style="transition-delay: 0.1s;">
+                <i class="fas fa-chart-pie skill-icon"></i>
+                <h3>Data Analysis</h3>
+                <p>Extracting insights, interpreting trends, and structuring raw datasets.</p>
+            </div>
+            <div class="skill-card glass-card tilt-card scroll-reveal" style="transition-delay: 0.2s;">
+                <i class="fas fa-robot skill-icon"></i>
+                <h3>Machine Learning</h3>
+                <p>Building predictive systems using algorithms and statistical techniques.</p>
+            </div>
+            <div class="skill-card glass-card tilt-card scroll-reveal" style="transition-delay: 0.3s;">
+                <i class="fas fa-brain skill-icon"></i>
+                <h3>Artificial Intelligence</h3>
+                <p>Developing smart solutions and implementing AI systems.</p>
+            </div>
+            <div class="skill-card glass-card tilt-card scroll-reveal" style="transition-delay: 0.4s;">
+                <i class="fas fa-chart-line skill-icon"></i>
+                <h3>Data Visualization</h3>
+                <p>Transforming complex datasets into clear visual insights.</p>
+            </div>
+            <div class="skill-card glass-card tilt-card scroll-reveal" style="transition-delay: 0.5s;">
+                <i class="fas fa-database skill-icon"></i>
+                <h3>SQL</h3>
+                <p>Querying databases, managing structured data efficiently.</p>
+            </div>
+            <div class="skill-card glass-card tilt-card scroll-reveal" style="transition-delay: 0.6s;">
+                <i class="fab fa-java skill-icon"></i>
+                <h3>Java</h3>
+                <p>Object-oriented programming, systems development, and algorithms.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools & Technologies (3D Logo Showcase) -->
+    <section id="tools" class="tools section-padding">
+        <h2 class="section-title scroll-reveal">Tech Stack <span class="highlight">.</span></h2>
+        <p class="section-subtitle scroll-reveal">
+            Building intelligent systems and scalable applications using modern technologies in artificial intelligence,
+            machine learning, and software development.
+        </p>
+        <div class="tools-grid">
+            <div class="tool-item scroll-reveal">
+                <div class="tool-box tilt-card"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
+                </div>
+                <p class="tool-name">Python</p>
+            </div>
+            <div class="tool-item scroll-reveal" style="transition-delay: 0.05s;">
+                <div class="tool-box tilt-card"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow">
+                </div>
+                <p class="tool-name">TensorFlow</p>
+            </div>
+            <div class="tool-item scroll-reveal" style="transition-delay: 0.1s;">
+                <div class="tool-box tilt-card"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C">
+                </div>
+                <p class="tool-name">C</p>
+            </div>
+            <div class="tool-item scroll-reveal" style="transition-delay: 0.15s;">
+                <div class="tool-box tilt-card"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg"
+                        alt="Anaconda"></div>
+                <p class="tool-name">Anaconda</p>
+            </div>
+            <div class="tool-item scroll-reveal" style="transition-delay: 0.2s;">
+                <div class="tool-box tilt-card"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Snowflake_Logo.svg" alt="Snowflake">
+                </div>
+                <p class="tool-name">Snowflake</p>
+            </div>
+            <div class="tool-item scroll-reveal" style="transition-delay: 0.25s;">
+                <div class="tool-box tilt-card"><img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg"
+                        alt="MySQL"></div>
+                <p class="tool-name">MySQL</p>
+            </div>
+            <div class="tool-item scroll-reveal" style="transition-delay: 0.3s;">
+                <div class="tool-box tilt-card"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter"></div>
+                <p class="tool-name">Jupyter</p>
+            </div>
+            <div class="tool-item scroll-reveal" style="transition-delay: 0.35s;">
+                <div class="tool-box tilt-card"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" alt="NumPy"></div>
+                <p class="tool-name">NumPy</p>
+            </div>
+            <div class="tool-item scroll-reveal" style="transition-delay: 0.4s;">
+                <div class="tool-box tilt-card"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" alt="Pandas"></div>
+                <p class="tool-name">Pandas</p>
+            </div>
+            <div class="tool-item scroll-reveal" style="transition-delay: 0.45s;">
+                <div class="tool-box tilt-card"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg"
+                        alt="Apache Spark"></div>
+                <p class="tool-name">Apache Spark</p>
+            </div>
+            <div class="tool-item scroll-reveal" style="transition-delay: 0.5s;">
+                <div class="tool-box tilt-card"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/3/37/Firebase_Logo.svg" alt="Firebase">
+                </div>
+                <p class="tool-name">Firebase</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <h2 class="section-title scroll-reveal">Services <span class="highlight">.</span></h2>
+        <div class="services-grid">
+            <div class="service-card scroll-reveal">
+                <div class="service-icon-box">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3>Data Analysis & Insights</h3>
+                <p>Analyzing large datasets to uncover patterns, trends, and insights that help organizations make
+                    better decisions.</p>
+            </div>
+            <div class="service-card scroll-reveal" style="animation-delay: 0.2s;">
+                <div class="service-icon-box">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>ML Model Development</h3>
+                <p>Designing and implementing predictive models that learn from data and improve decision-making
+                    processes.</p>
+            </div>
+            <div class="service-card scroll-reveal" style="animation-delay: 0.4s;">
+                <div class="service-icon-box">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <h3>AI-Based Solutions</h3>
+                <p>Developing intelligent systems that automate tasks, recognize patterns, and enhance operational
+                    efficiency.</p>
+            </div>
+            <div class="service-card scroll-reveal" style="animation-delay: 0.6s;">
+                <div class="service-icon-box">
+                    <i class="fas fa-arrow-trend-up"></i>
+                </div>
+                <h3>Predictive Analytics</h3>
+                <p>Using statistical models and historical data to predict future outcomes and trends.</p>
+            </div>
+            <div class="service-card scroll-reveal" style="animation-delay: 0.8s;">
+                <div class="service-icon-box">
+                    <i class="fas fa-filter"></i>
+                </div>
+                <h3>Data Cleaning & Processing</h3>
+                <p>Preparing raw data for analysis by organizing, filtering, and transforming it into structured
+                    formats.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <h2 class="section-title scroll-reveal">Featured Projects <span class="highlight">.</span></h2>
+        <div class="projects-grid">
+            <div class="project-card glass-card tilt-card scroll-reveal">
+                <div class="project-content">
+                    <h3>Deep Learning Image Classifier</h3>
+                    <p>A Convolutional Neural Network (CNN) trained to identify and categorize medical imagery with high
+                        precision, optimizing diagnostic workflows using computer vision.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>OpenCV</span>
+                        <span>Keras</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="github-link"><i class="fab fa-github"></i> View Code</a>
+                </div>
+            </div>
+
+            <div class="project-card glass-card tilt-card scroll-reveal" style="transition-delay: 0.15s;">
+                <div class="project-content">
+                    <h3>NLP Customer Sentiment Analyzer</h3>
+                    <p>An Artificial Intelligence pipeline leveraging Natural Language Processing to extract hidden
+                        sentiment patterns from thousands of customer reviews in real-time.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>NLTK</span>
+                        <span>Scikit-Learn</span>
+                        <span>Pandas</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="github-link"><i class="fab fa-github"></i> View Code</a>
+                </div>
+            </div>
+
+            <div class="project-card glass-card tilt-card scroll-reveal" style="transition-delay: 0.3s;">
+                <div class="project-content">
+                    <h3>Predictive Maintenance Model</h3>
+                    <p>An end-to-end Machine Learning solution that analyzes IoT sensor data streams to predict
+                        machinery failure before it occurs, drastically reducing manufacturing downtime.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>XGBoost</span>
+                        <span>PyTorch</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="github-link"><i class="fab fa-github"></i> View Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="contact-container scroll-reveal">
+            <h2 class="section-title">Get in Touch <span class="highlight">.</span></h2>
+            <p class="contact-msg">Feel free to reach out for collaborations, data science discussions, project
+                opportunities, or AI-based solutions.</p>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item glass-card tilt-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p><a href="mailto:tusharsenapati2005@gmail.com">tusharsenapati2005@gmail.com</a></p>
+                    </div>
+                    <div class="info-item glass-card tilt-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h4>LinkedIn</h4>
+                        <p><a href="https://www.linkedin.com/in/tushar-s-535249354"
+                                target="_blank">linkedin.com/in/tushar-s-535249354</a></p>
+                    </div>
+                    <div class="info-item glass-card tilt-card">
+                        <i class="fab fa-github"></i>
+                        <h4>GitHub</h4>
+                        <p><a href="https://github.com/tusharsenapati2005-bot"
+                                target="_blank">github.com/tusharsenapati2005-bot</a></p>
+                    </div>
+                    <div class="info-item glass-card tilt-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Location</h4>
+                        <p>India</p>
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact-form glass-card">
+                    <div class="input-group">
+                        <input type="text" id="name" name="user_name" placeholder=" " required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" name="user_email" placeholder=" " required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message <i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Tushar Senapati. All rights reserved.</p>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            // Initialize EmailJS with your Public Key
+            emailjs.init("RLmmi0Qjv-xhN34Hx");
+        })();
+    </script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
